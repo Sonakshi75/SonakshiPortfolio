@@ -1,0 +1,190 @@
+html p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.25rem;
+}
+html a,h1,h4{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.Head{
+  color:#fff;
+}
+
+#welcome{
+  text-align: center;
+  padding: 7% 15%;
+  padding-top: 15%;
+}
+
+#welcome-page{
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #78DEC7 50%,#F9F9F9 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+#welcome-btn{
+  color: #78DEC7;
+}
+
+#welcome-btn:hover{
+  background-color: #78DEC7;
+  color: #fff;
+}
+
+#welcome h1{
+  animation-name: slidein;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+ animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+
+
+#NavBar a{
+  color: #fff;
+}
+
+#NavBar a:hover{
+  color:#78DEC7;
+}
+
+
+/* ABOUT PAGE */
+
+#image{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #F8F0DF;
+}
+
+#image img{
+  border-radius: 50%;
+  border: 5px solid #000000;
+}
+
+.about-paras{
+  padding: 7% 15%;
+}
+
+
+/* Contact page */
+
+#contact{
+  background-color: #fdfaf6;
+  padding: 7% 15%;
+}
+
+.contactpart2{
+  text-align: right;
+}
+
+.contacthead{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#contactsubmit{
+  padding: 5px 95px 5px 95px;
+  text-align:center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.contactpart2 h4{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
+}
+
+.social-link{
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+.social-link:hover{
+  color: grey;
+}
+
+
+@media (max-width:1028px) {
+  .contactpart2{
+    text-align: left;
+  }
+}
+
+
+/* SKILLS PAGE */
+
+#skills{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #F3F1F5;
+}
+
+
+#skills h1{
+  animation: bounceInLeft;
+  animation-duration: 2s;
+}
+.skill{
+  padding-top: 15%;
+  margin-right: 10%;
+}
+
+
+/* RESUME PAGE */
+
+#resume h1{
+  text-align: center;
+  padding-top: 5%;
+  animation: fadeInUp;
+  animation-duration: 2s;
+}
+
+#resume{
+  background-color: #fff;
+}
+
+
+#resume-details{
+  padding: 10% 25%;
+  background-color: #CEE5D0;
+  margin-top: 5%;
+  margin: 10%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#resume-details a{
+  color: black;
+  text-decoration:none;
+
+}
+
+#resume-details a:hover{
+  text-decoration: overline;
+}
+
+.resume-pdf{
+  color: black;
+}
+
+.resume-pdf:hover{
+  background-color: #CEE5D0;
+  color: black;
+}
+
+.resume-pdf-div{
+  text-align: center;
+}
+
+
+
+/* PROJECTS PAGE */
+.projects{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #E0C097;
+}
+
+
+.project-details{
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
